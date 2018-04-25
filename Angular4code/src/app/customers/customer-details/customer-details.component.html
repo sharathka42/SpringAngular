@@ -1,0 +1,21 @@
+<div *ngIf="customer">
+    <table class="table">
+        <thead>
+            <tr>
+                <th>#</th>
+                <th>Technology Name</th>
+                <th>Years</th>
+                <th>Active</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th scope="row">{{customer.id}}</th>
+                <td>{{customer.name}}</td>
+                <td>{{customer.age}}</td>
+                <td>{{customer.active}}</td>
+            </tr>
+
+        </tbody>
+    </table>
+</div>

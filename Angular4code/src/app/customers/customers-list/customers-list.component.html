@@ -1,0 +1,8 @@
+<div class="contianer">
+    <h1>Customers</h1>
+    <div class="row">
+        <div *ngFor="let customer of customers | async" style="width: 300px;">
+            <customer-details [customer]='customer'></customer-details>
+        </div>
+    </div>
+</div>
